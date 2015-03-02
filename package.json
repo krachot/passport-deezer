@@ -1,0 +1,26 @@
+{
+  "name": "passport-deezer",
+  "version": "0.1.0",
+  "description": "Deezer authentication strategy for Passport.",
+  "main": "./lib/passport-deezer",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "passport-oauth2": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "passport",
+    "deezer",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": "Matthieu Bozec <matthieu.bozec@gmail.com> (http://matthieu.bozec.org)",
+  "license": "MIT"
+}

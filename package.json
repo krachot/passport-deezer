@@ -1,8 +1,12 @@
 {
   "name": "passport-deezer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Deezer authentication strategy for Passport.",
   "main": "./lib/passport-deezer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krachot/passport-deezer"
+  },
   "directories": {
     "example": "examples"
   },
@@ -22,5 +26,9 @@
     "identity"
   ],
   "author": "Matthieu Bozec <matthieu.bozec@gmail.com> (http://matthieu.bozec.org)",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krachot/passport-deezer/issues"
+  },
+  "homepage": "https://github.com/krachot/passport-deezer"
 }

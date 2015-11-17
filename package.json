@@ -1,6 +1,6 @@
 {
   "name": "passport-deezer",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Deezer authentication strategy for Passport.",
   "main": "./lib/passport-deezer",
   "repository": {

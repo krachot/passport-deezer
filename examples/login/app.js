@@ -34,7 +34,8 @@ passport.deserializeUser(function(obj, done) {
 passport.use(new DeezerStrategy({
     clientID: DEEZER_CLIENT_ID,
     clientSecret: DEEZER_CLIENT_SECRET,
-    callbackURL: "http://localhost:3000/auth/deezer/callback"
+    callbackURL: "http://localhost:3000/auth/deezer/callback",
+    scope: ['basic_access', 'email', 'offline_access', 'manage_library']
   },
   function(accessToken, refreshToken, profile, done) {
     // asynchronous verification, for effect...

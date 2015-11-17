@@ -62,6 +62,7 @@ Tests not yet provided
 
 ## Release History
 
+* 0.2.0 Handle permissions
 * 0.1.0 Initial release
 
 ## Credits
